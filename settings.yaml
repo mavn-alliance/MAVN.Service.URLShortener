@@ -1,0 +1,29 @@
+UrlShortenerService:
+    Db:
+        LogsConnString:
+            settings-key: UrlShortenerService-LogsConnString
+            types:
+              - AzureTableStorage
+    Firebase: 
+         DomainUriPrefix: 
+            settings-key: UrlShortenerService-DomainUriPrefix
+         AndroidPackageName: 
+            settings-key: UrlShortenerService-AndroidPackageName
+         IosBundleId: 
+            settings-key: UrlShortenerService-IosBundleId
+         IosAppStoreId: 
+            settings-key: UrlShortenerService-IosAppStoreId
+         FirebaseApiKey: 
+            settings-key: UrlShortenerService-FirebaseApiKey
+SlackNotifications:
+    AzureQueue:
+        ConnectionString:
+            settings-key: SlackNotificationsConnString
+            types:
+                - AzureTableStorage
+        QueueName:
+            settings-key: SlackQueueName
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+
