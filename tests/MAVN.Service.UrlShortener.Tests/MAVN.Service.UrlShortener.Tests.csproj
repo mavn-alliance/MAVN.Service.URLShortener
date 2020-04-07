@@ -17,8 +17,8 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\client\Lykke.Service.UrlShortener.Client\Lykke.Service.UrlShortener.Client.csproj" />
-    <ProjectReference Include="..\..\src\Lykke.Service.UrlShortener\Lykke.Service.UrlShortener.csproj" />
-    <ProjectReference Include="..\..\src\Lykke.Service.UrlShortener.DomainServices\Lykke.Service.UrlShortener.DomainServices.csproj" />
+    <ProjectReference Include="..\..\client\MAVN.Service.UrlShortener.Client\MAVN.Service.UrlShortener.Client.csproj" />
+    <ProjectReference Include="..\..\src\MAVN.Service.UrlShortener\MAVN.Service.UrlShortener.csproj" />
+    <ProjectReference Include="..\..\src\MAVN.Service.UrlShortener.DomainServices\MAVN.Service.UrlShortener.DomainServices.csproj" />
   </ItemGroup>
 </Project>

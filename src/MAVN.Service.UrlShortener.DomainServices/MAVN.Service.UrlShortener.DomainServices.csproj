@@ -7,6 +7,6 @@
     <PackageReference Include="Google.Apis.FirebaseDynamicLinks.v1" Version="1.41.1.1765" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lykke.Service.UrlShortener.Domain\Lykke.Service.UrlShortener.Domain.csproj" />
+    <ProjectReference Include="..\MAVN.Service.UrlShortener.Domain\MAVN.Service.UrlShortener.Domain.csproj" />
   </ItemGroup>
 </Project>

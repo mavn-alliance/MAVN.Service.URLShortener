@@ -25,9 +25,9 @@
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\client\Lykke.Service.UrlShortener.Client\Lykke.Service.UrlShortener.Client.csproj" />
-    <ProjectReference Include="..\Lykke.Service.UrlShortener.AzureRepositories\Lykke.Service.UrlShortener.AzureRepositories.csproj" />
-    <ProjectReference Include="..\Lykke.Service.UrlShortener.Domain\Lykke.Service.UrlShortener.Domain.csproj" />
-    <ProjectReference Include="..\Lykke.Service.UrlShortener.DomainServices\Lykke.Service.UrlShortener.DomainServices.csproj" />
+    <ProjectReference Include="..\..\client\MAVN.Service.UrlShortener.Client\MAVN.Service.UrlShortener.Client.csproj" />
+    <ProjectReference Include="..\MAVN.Service.UrlShortener.AzureRepositories\MAVN.Service.UrlShortener.AzureRepositories.csproj" />
+    <ProjectReference Include="..\MAVN.Service.UrlShortener.Domain\MAVN.Service.UrlShortener.Domain.csproj" />
+    <ProjectReference Include="..\MAVN.Service.UrlShortener.DomainServices\MAVN.Service.UrlShortener.DomainServices.csproj" />
   </ItemGroup>
 </Project>
