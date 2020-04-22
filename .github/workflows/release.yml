@@ -11,12 +11,12 @@ env:
   RELEASE_JOB: false
   RELEASE_SERVICE: true
   
-  CLIENT_PROJECT: ./client/MAVN.Service.URLShortener.Client/MAVN.Service.URLShortener.Client.csproj
-  CONTRACT_PROJECT: ./contract/MAVN.Service.URLShortener.Contract/MAVN.Service.URLShortener.Contract.csproj
+  CLIENT_PROJECT: ./client/MAVN.Service.UrlShortener.Client/MAVN.Service.UrlShortener.Client.csproj
+  CONTRACT_PROJECT: ./contract/MAVN.Service.UrlShortener.Contract/MAVN.Service.UrlShortener.Contract.csproj
   JOB_DOCKER_IMAGE:
   JOB_PROJECT:
   SERVICE_DOCKER_IMAGE: url-shortener-service
-  SERVICE_PROJECT: ./src/MAVN.Service.URLShortener/MAVN.Service.URLShortener.csproj
+  SERVICE_PROJECT: ./src/MAVN.Service.UrlShortener/MAVN.Service.UrlShortener.csproj
     
   
         
